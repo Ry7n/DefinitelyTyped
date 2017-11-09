@@ -23,7 +23,8 @@ export interface HystrixProperties {
     "hystrix.metrics.statistical.window.bucketsNumber"?: number,
     "hystrix.metrics.percentile.window.timeInMilliseconds"?: number,
     "hystrix.metrics.percentile.window.bucketsNumber"?: number,
-    "hystrix.request.volume.rejectionThreshold"?: number
+    "hystrix.request.volume.rejectionThreshold"?: number,
+    "hystrix.promise.implementation"?: any
 }
 
 export interface HystrixConfig {
